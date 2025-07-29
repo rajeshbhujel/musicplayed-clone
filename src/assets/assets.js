@@ -22,15 +22,25 @@ import arrow_right from './right_arrow.png'
 import arrow_left from './left_arrow.png'
 import spotify_logo from './spotify_logo.png'
 import clock_icon from './clock_icon.png'
-import img1 from './img1.jpg'
-import img2 from './img2.jpg'
-import img3 from './img3.jpg'
-import img4 from './img4.jpg'
-import img5 from './img5.jpg'
-import img6 from './img6.jpg'
-import img7 from './img7.jpg'
-import img8 from './img8.jpg'
-import img9 from './img9.jpg'
+import img1 from './behuli.jpeg'
+import img2 from './paisa.jpeg'
+import img3 from './guns and roses.jpeg'
+import img4 from './mooskan.jpeg'
+import img5 from './summertime-sadness1.jpg'
+import img6 from './sathi.jpeg'
+import img7 from './sarangi.jpeg'
+import img17 from './my world.jpg'
+import img18 from './baby.jpeg'
+import img19 from './dhun.jpeg'
+import img20 from './rataan lambiyan.jpeg'
+import img21 from './coldplay.jpeg'
+import img22 from './saphre1.jpeg'
+import img23 from './broke.jpeg'
+import img24 from './die with smile.jpeg'
+import img25 from './ride.jpeg'
+
+import img8 from './top 50.jpeg'
+import img9 from './img8.jpg'
 import img10 from './img10.jpg'
 import img11 from './img11.jpg'
 import img12 from './img12.jpg'
@@ -44,6 +54,25 @@ import song3 from  './song3.mp3'
 import song4 from  './song4.mp3'
 import song5 from  './song5.mp3'
 import song6 from  './song6.mp3'
+import song7 from  './song7.mp3'
+import song8 from  './song8.mp3'
+import song9 from  './song9.mp3'
+import song10 from  './song10.mp3'
+import song11 from  './song11.mp3'
+import song12 from  './song12.mp3'
+import song13 from  './song13.mp3'
+import song14 from  './song14.mp3'
+
+import song15 from  './song15.mp3'
+import song16 from  './song16.mp3'
+
+
+
+
+
+
+
+
 
 export const assets = {
     bell_icon,
@@ -75,21 +104,21 @@ export const assets = {
 export const albumsData = [
     {   
         id:0,
-        name: "Top 50 Global",
+        name: "Top 50 NEPAL",
         image: img8,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#2a4365"
     },
     {   
         id:1,
-        name: "Top 50 India",
+        name: "Top 50 Global",
         image: img9,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#22543d"
     },
     {   
         id:2,
-        name: "Trending India",
+        name: "Top 50 India ",
         image: img10,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#742a2a"
@@ -120,66 +149,130 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Kutti Story",
+        name: "Behuli",
         image: img1,
         file:song1,
-        desc:"Aniruth Ravichander,Thalapathy Vijay",
-        duration:"5:22"
+        desc:"Sajan Raj Vaidya",
+        duration:"4:36"
     },
     {
         id:1,
-        name: "VIP Title Song",
+        name: "PAISAAA",
         image: img2,
         file:song2,
-        desc:"Anirudh Ravichander",
-        duration:"2:43"
+        desc:"Kushal Pokhrel ",
+        duration:"3:20"
     },
     {
         id:2,
-        name: "Dharala Prabhu Title Track",
+        name: "Guns and Roses",
         image: img3,
         file:song3,
-        desc:"Anirudh Ravichander",
-        duration:"3:42"
+        desc:" Axl Rose",
+        duration:"5:24"
     },
     {
         id:3,
-        name: "Hukum-Thalaivar Alappara",
+        name: "Mooskan",
         image: img4,
         file:song4,
-        desc:"Anirudh Ravichander,Super Subu",
-        duration:"3:26"
+        desc:"Sajan Raj Vaidya",
+        duration:"5:15"
     },
     {
         id:4,
-        name: "Illuminati",
+        name: "Summertime Sadness",
         image: img5,
         file:song5,
-        desc:"Sushin Shyam, Dabzee, Vinayak Sasikumar",
-        duration:"2:28"
+        desc:"Lana Del Rey",
+        duration:"4:25"
     },
     {
         id:5,
-        name: "Idhazin Oram-The Innocence of Love",
+        name: "SATHI 2011",
         image: img6,
         file:song6,
-        desc:"Anirudh Ravichander,Ajesh",
-        duration:"3:24"
+        desc:"Yama Budha ",
+        duration:"3:54"
     },
     {
         id:6,
-        name: "Vaathi Coming",
+        name: "Sarangi",
         image: img7,
-        file:song1,
-        desc:"Aniruth Ravichander,Thalapathy Vijay",
-        duration:"3:48"
+        file:song7,
+        desc:"Sushant KC ",
+        duration:"3:32"
     },
     {
         id:7,
-        name: "What a Karavaad",
-        image: img2,
-        file:song2,
-        desc:"Anirudh Ravichander,Dhanush",
+        name: "Favourite Girl ",
+        image: img17,
+        file:song8,
+        desc:"Justin Bieber",
+        duration:"4:14"
+    },
+    {
+        id:8,
+        name: " BABY ",
+        image: img18,
+        file:song9,
+        desc:"Justin Bieber",
+        duration:"3:39"
+    },
+    {
+        id:9,
+        name: "Dhun",
+        image: img19,
+        file:song10,
+        desc:"Arijit Singh",
+        duration:"3:32"
+    },
+     {
+        id:10,
+        name: "Rataan Lambiyaan ",
+        image: img20,
+        file:song11,
+        desc:"Jubin Nautiyal ",
+        duration:"3:53"
+    },
+     {
+        id:11,
+        name: "Hymm for the weekend",
+        image: img21,
+        file:song12,
+        desc:"Coldplay band ",
+        duration:"4:20"
+    },
+     {
+        id:12,
+        name: "SapHirEe",
+        image: img22,
+        file:song13,
+        desc:"Ed Shreen",
         duration:"4:27"
+    },
+     {
+        id:13,
+        name: "Young And Broke ",
+        image: img23,
+        file:song14,
+        desc:"Khalid",
+        duration:"4:07"
+    },
+     {
+        id:14,
+        name: "Die With a Smile",
+        image: img24,
+        file:song15,
+        desc:"Lady Gaga,Bruno Mars",
+        duration:"4:12"
+    },
+     {
+        id:15,
+        name: "Ride",
+        image: img25,
+        file:song16,
+        desc:"twenty one pilots",
+        duration:"3:45"
     }
 ]

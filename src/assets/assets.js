@@ -37,7 +37,7 @@ import img21 from './coldplay.jpeg'
 import img22 from './saphre1.jpeg'
 import img23 from './broke.jpeg'
 import img24 from './die with smile.jpeg'
-import img25 from './ride.jpeg'
+import img25 from './Ride.jpeg'
 
 import img8 from './top 50.jpeg'
 import img9 from './img8.jpg'
